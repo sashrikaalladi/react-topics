@@ -1,11 +1,13 @@
 // import './App.css';
 
-import Usememo from './components/Usememo';
+import Usecallback from './components/usecallback/Usecallback';
+// import Usememo from './components/Usememo';
 function App() {
 
   return (
     <div>
-    <Usememo />
+    {/* <Usememo /> */}
+    <Usecallback/>
     </div>
   );
 }
